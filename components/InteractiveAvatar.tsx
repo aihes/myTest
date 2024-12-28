@@ -67,7 +67,7 @@ export default function InteractiveAvatar() {
 
     avatar.current = new StreamingAvatar({
       token: newToken,
-      basePath: "https://www.moonnightai.top/proxy",
+      basePath: "https://heygenproxy.aihe.space/proxy",
     });
     avatar.current.on(StreamingEvents.AVATAR_START_TALKING, (e) => {
       console.log("Avatar started talking", e);
